@@ -1,5 +1,8 @@
 ## IPFScrape
 
+run to scrape website and pin in your ipfs repository + output the links tino links.txt file
+`./run.sh https://html-link >> links.txt`
+
 ![GIF of usage](preview.gif)
 
 Takes a URL (webpage), downloads all the contents (css, images, scripts needed) for a page and dumps it into IPFS, providing you with a public link and a local link. Use for making quick copies of websites or permanent copies that you can send to friends.
