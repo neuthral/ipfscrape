@@ -38,14 +38,12 @@ ipfs add -r . > ipfs_log
 
 HASH=$(tail -n 1 ipfs_log | cut -d ' ' -f 2)
 
-## echo "${yellow}"
-ipfs pin add $HASH
-## echo "${NC}"
 [ "$HASH" = "" ] && echo -e "${RED}Didn't add anything to IPFS...?! :'( ${NC} Aborting..." && exit 1
 
 ## echo -e "${NC}"
 echo "###############"
 echo "## site:" $URL
 echo -e "## https://ipfs.io/ipfs/$HASH"
+ipfs pin add $HASH
 
 rm -rf /tmp/ipfscrape/site
