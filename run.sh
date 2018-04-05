@@ -19,10 +19,10 @@ set -o pipefail
 
 URL=$1
 
-echo ""
-echo -e "${GREEN}Dumping \"$URL\" into IPFS${NC}"
+## echo ""
+## echo -e "${GREEN}Dumping \"$URL\" into IPFS${NC}"
 
-echo -e "${BLUE}"
+## echo -e "${BLUE}"
 mkdir -p /tmp/ipfscrape/site
 cd /tmp/ipfscrape/site
 wget -q --show-progress --page-requisites --html-extension --convert-links --random-wait -e robots=off -nd --span-hosts $URL || true
@@ -30,7 +30,7 @@ wget -q --show-progress --page-requisites --html-extension --convert-links --ran
 test -f index.html || {
 INDEX_FILE=$(ls -S | grep -i .html | head -n1)
 
-echo "Moving $INDEX_FILE to index.html"
+## echo "Moving $INDEX_FILE to index.html"
 mv /tmp/ipfscrape/site/$INDEX_FILE /tmp/ipfscrape/site/index.html
 }
 
@@ -38,15 +38,14 @@ ipfs add -r . > ipfs_log
 
 HASH=$(tail -n 1 ipfs_log | cut -d ' ' -f 2)
 
+## echo "${yellow}"
+ipfs pin add $HASH
+## echo "${NC}"
 [ "$HASH" = "" ] && echo -e "${RED}Didn't add anything to IPFS...?! :'( ${NC} Aborting..." && exit 1
 
-echo -e "${NC}"
+## echo -e "${NC}"
 echo "###############"
-echo -e "## ${GREEN}DUMP COMPLETE${NC}"
-echo "##"
-echo "## Urls:"
-echo -e "## ${BLUE}http://localhost:8080/ipfs/$HASH${NC}"
-echo -e "## ${BLUE}https://ipfs.io/ipfs/$HASH${NC}"
-echo ""
+echo "## site:" $URL
+echo -e "## https://ipfs.io/ipfs/$HASH"
 
 rm -rf /tmp/ipfscrape/site
