@@ -40,7 +40,7 @@ HASH=$(tail -n 1 ipfs_log | cut -d ' ' -f 2)
 
 [ "$HASH" = "" ] && echo -e "${RED}Didn't add anything to IPFS...?! :'( ${NC} Aborting..." && exit 1
 
-## echo -e "${NC}"
+date
 echo "###############"
 echo "## site:" $URL
 echo -e "## https://ipfs.io/ipfs/$HASH"

@@ -38,3 +38,52 @@ pinned QmeQUem1XLtPCyHsh14GqE257koPorYCuLJ246oBVuGWma recursively
 ###############
 ## site: https://qanonmap.bitbucket.io/?
 ## https://ipfs.io/ipfs/QmeQUem1XLtPCyHsh14GqE257koPorYCuLJ246oBVuGWma
+###############
+## site: http://whale.to/c/churches_ill.html
+## https://ipfs.io/ipfs/QmdiEcwQgK18CiszNzcYAKnsfcBjbuPVfSCcHPb8ZuZ4Y1
+pinned QmdiEcwQgK18CiszNzcYAKnsfcBjbuPVfSCcHPb8ZuZ4Y1 recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/resistance-movement/
+## https://ipfs.io/ipfs/QmSfSchQmPi98wKxgCq6fvpmwe46GAJejP8h6A7ivjvZdp
+pinned QmSfSchQmPi98wKxgCq6fvpmwe46GAJejP8h6A7ivjvZdp recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/removing-the-cabal/
+## https://ipfs.io/ipfs/Qmbtw3ArWwMZQVcj1sZEbdActNwbTU4oYJTCLZfa1zVgMx
+pinned Qmbtw3ArWwMZQVcj1sZEbdActNwbTU4oYJTCLZfa1zVgMx recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/fall-of-the-archons/
+## https://ipfs.io/ipfs/QmXNqXUNTTETbjgU8pwqVtmkRj9PZoHoCGy2qY14pU1uoN
+pinned QmXNqXUNTTETbjgU8pwqVtmkRj9PZoHoCGy2qY14pU1uoN recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/the-veil/
+## https://ipfs.io/ipfs/QmWh9V7LJVMJ4NHWmpabM5oiBmW6eASA5ETcmvW65EZCUe
+pinned QmWh9V7LJVMJ4NHWmpabM5oiBmW6eASA5ETcmvW65EZCUe recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/brotherhood-of-the-star/
+## https://ipfs.io/ipfs/QmQYKCMV97ziMNFxnYKm4EJ2yRkVn9TnupgwosXHH5ap3J
+pinned QmQYKCMV97ziMNFxnYKm4EJ2yRkVn9TnupgwosXHH5ap3J recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/the-masterplan/
+## https://ipfs.io/ipfs/QmPemc6cy5rL7WSPfVCz2umt1Km51x49uoCwCwZTTw4Y6p
+pinned QmPemc6cy5rL7WSPfVCz2umt1Km51x49uoCwCwZTTw4Y6p recursively
+###############
+## site: https://prepareforchange.net/2015/11/01/solar-system-situation-update/
+## https://ipfs.io/ipfs/QmTLDZoctJ7qq9WyHBJDRoLy264jfxVo44SEyZdwuoPPoR
+pinned QmTLDZoctJ7qq9WyHBJDRoLy264jfxVo44SEyZdwuoPPoR recursively
+###############
+## site: https://2012portal.blogspot.fi/2012/04/normal-0-microsoftinternetexplorer4_28.html
+## https://ipfs.io/ipfs/QmXbNXNH9t1aqEMMyx7DEyL4WGek1MAAtZ895UW7o3eHL5
+pinned QmXbNXNH9t1aqEMMyx7DEyL4WGek1MAAtZ895UW7o3eHL5 recursively
+###############
+## site: https://spherebeingalliance.com/blog/transcript-cosmic-disclosure-alien-tech-at-the-vatican.html
+## https://ipfs.io/ipfs/QmTWbwBeHEzuKRyrHXzkZjWQCsSiMuVCgh1DNq5bakGc7F
+pinned QmTWbwBeHEzuKRyrHXzkZjWQCsSiMuVCgh1DNq5bakGc7F recursively
+###############
+## site: https://www.neonrevolt.com/2018/04/04/are-you-ready-to-see-wonderland-666-5th-ave-and-cabal-pizzagate-pedogate-qanon-greatawakening-5thaveanon/
+## https://ipfs.io/ipfs/QmQhD3saSXG6cRzXLjMFxDuVvrPaBMyZGdRcyTeotdZvZi
+pinned QmQhD3saSXG6cRzXLjMFxDuVvrPaBMyZGdRcyTeotdZvZi recursively
+7.4.2017--
+###############
+## site: https://qanonmap.bitbucket.io/
+## https://ipfs.io/ipfs/Qmf5SziQgXN9fBdQsNZsspx6iuVDpYM8AJAGo5XK5uUwGa
+pinned Qmf5SziQgXN9fBdQsNZsspx6iuVDpYM8AJAGo5XK5uUwGa recursively
