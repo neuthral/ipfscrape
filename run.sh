@@ -34,16 +34,15 @@ INDEX_FILE=$(ls -S | grep -i .html | head -n1)
 mv /tmp/ipfscrape/site/$INDEX_FILE /tmp/ipfscrape/site/index.html
 }
 
-ipfs add -r . > ipfs_log
+ipfs add -r /tmp/ipfscrape/site > ipfs_log
 
 HASH=$(tail -n 1 ipfs_log | cut -d ' ' -f 2)
 
 [ "$HASH" = "" ] && echo -e "${RED}Didn't add anything to IPFS...?! :'( ${NC} Aborting..." && exit 1
 
-date
-echo "###############"
-echo "## site:" $URL
-echo -e "## https://ipfs.io/ipfs/$HASH"
+echo "----"
 ipfs pin add $HASH
+echo "url: $URL"
+echo "https://ipfs.io/ipfs/$HASH"
 
 rm -rf /tmp/ipfscrape/site
